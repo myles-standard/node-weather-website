@@ -1,0 +1,74 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 65rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    letter-spacing: 0.2ch;
+    padding: 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 0.1rem solid #eeeeee;
+    margin: 1.6rem 0 0 0;
+    padding: 1.6rem 0;
+}
+
+header {
+    margin: 1.6rem 0 4.8rem 0
+}
+
+h1 {
+    font-size: 6.4rem;
+    margin: 0 0 1.6rem 0;
+}
+
+header a {
+    display: inline-block;
+    color: #888888;
+    margin-right: 1.6rem;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-bottom: 0.3rem solid #888888;
+    margin-bottom: -0.3rem;
+}
+
+.portrait {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+button {
+    cursor: pointer;
+    border: .1rem solid #B2BEB5;
+    border-radius: .8rem;
+    padding: .2rem .7rem;
+    background: #ff7474;
+    color: white;
+    font-size: medium;
+}
+
+button:hover {
+    outline: .25rem solid #efce9c;
+}
+
+input {
+    border: .1rem solid #cccccc;
+    border-radius: .3rem;
+    padding: .5rem;
+}

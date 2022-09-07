@@ -9,6 +9,8 @@ import { geocode } from './utils/geocode.mjs'
 import { forecast } from './utils/forecast.mjs'
 
 const app = express()
+const port = process.env.PORT || 3000
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
@@ -112,6 +114,6 @@ app.get('*', (req, res) => {
 // app.com/help
 // app.com/about
 
-app.listen(3000, () => {
-    console.log('SERVER RUNNING: Port 3000')
+app.listen(port, () => {
+    console.log('SERVER RUNNING: Port ' + port)
 })
